@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState } from 'react';
+
 import './TotalScore.css';
 
 const TotalScore = ({ score }) => {

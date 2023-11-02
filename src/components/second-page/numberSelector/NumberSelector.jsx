@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './NumberSelector.css'
 
 const NumberSelector = ({ selectedNum, setSelectedNum, error, setError }) => {
