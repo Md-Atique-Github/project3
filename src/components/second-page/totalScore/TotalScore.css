@@ -1,0 +1,19 @@
+.total {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    text-align: center;
+    margin-top: 60px;
+    justify-content: end;
+    margin-left: 70px;
+
+}
+
+.total h1 {
+    font-size: 100px;
+}
+
+.total p {
+    font-size: 24px;
+    font-weight: 500px;
+}

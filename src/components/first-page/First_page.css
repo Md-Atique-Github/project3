@@ -1,0 +1,39 @@
+.dice_game {
+    text-align: center;
+    font-size: 96px;
+    white-space: nowrap;
+
+}
+
+.center_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn_1 {
+    text-align: center;
+    background-color: rgb(8, 8, 8);
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgb(145, 145, 145);
+        border-color: 1px solid black;
+        color: black;
+        transition: 0.3s;
+        background: ease-in;
+    }
+
+}
+
+.first_container {
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 30px;
+    align-items: center;
+    height: calc(100vh - 30px);
+    justify-content: center;
+}

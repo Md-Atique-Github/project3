@@ -1,0 +1,5 @@
+.top_section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -62px;
+}

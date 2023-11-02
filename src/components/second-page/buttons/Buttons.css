@@ -1,0 +1,29 @@
+.btn_2 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 18px;
+    min-width: 220px;
+    font-size: 16px;
+    border-color: 1px solid black;
+
+
+    &:hover {
+        background-color: rgb(145, 145, 145);
+        border-color: 1px solid black;
+        color: black;
+        transition: 0.3s;
+        background: ease-in;
+    }
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    flex-direction: column;
+    gap: 20px;
+}
